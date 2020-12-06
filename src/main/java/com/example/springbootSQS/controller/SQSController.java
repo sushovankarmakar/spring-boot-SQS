@@ -33,6 +33,7 @@ public class SQSController {
     *               auto: false
     * */
 
+    // https://stackoverflow.com/questions/59517989/spring-cloud-aws-sqs-fails-to-connect-to-service-endpoint-locally
     // https://stackoverflow.com/questions/16449126/kafka-or-sns-or-something-else
 
     @GetMapping(value = "/put/{message}")
